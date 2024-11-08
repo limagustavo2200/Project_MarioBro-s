@@ -1,0 +1,50 @@
+.primary-container {
+  display: flex;
+  width: 100vw;
+  height: 70%;
+  padding: 2rem 5rem;
+}
+
+@keyframes renderTransitionLeft{
+  0% {
+    transform: translateX(-100%)  ;
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes renderTransitionRight{
+  0% {
+    transform: translateX(100%)  ;
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+
+.wpp-logo {
+  position: absolute;
+  padding: 3px;
+  right: 1rem;
+  bottom: 1rem;
+
+  img {
+      width: 4rem;
+      height: 4rem;
+  }
+}
+

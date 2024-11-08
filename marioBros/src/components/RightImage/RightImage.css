@@ -1,0 +1,19 @@
+.image-container {
+    width: 50%;
+    height: 100vh;
+    padding-bottom: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 30rem;
+        height: 30rem;
+    }
+
+}
+
+.rightComponent {
+    animation: renderTransitionRight 2s ease-in-out;
+
+}
