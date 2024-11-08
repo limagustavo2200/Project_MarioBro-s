@@ -2,6 +2,7 @@
     width: 50%;
     height: 100vh;
     padding-bottom: 250px;
+    padding-right: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,3 +18,23 @@
     animation: renderTransitionRight 2s ease-in-out;
 
 }
+
+@media (max-width: 1024px){
+    .image-container{
+        height: fit-content;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 480px){
+    .image-container{
+        margin-top: 50px;
+        height: 50%;
+        img {
+            width: 250px;
+            height: 250px;
+        }
+    }
+}
+
+

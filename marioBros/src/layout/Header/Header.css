@@ -30,3 +30,21 @@
     opacity: 0.8;
     transition: 0.5s;
 }
+
+@media (max-width: 1024px){
+    .navbar-container {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 880px){
+    #logo{
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-container {
+    display: none;
+    }
+}

@@ -2,7 +2,7 @@
   display: flex;
   width: 100vw;
   height: 70%;
-  padding: 2rem 5rem;
+  /* padding: 2rem 5rem; */
 }
 
 @keyframes renderTransitionLeft{
@@ -30,12 +30,6 @@
 }
 
 
-
-
-
-
-
-
 .wpp-logo {
   position: absolute;
   padding: 3px;
@@ -48,3 +42,39 @@
   }
 }
 
+@media (max-width: 1024px){
+  .primary-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+  }
+}
+
+
+@media (max-width: 880px) {
+  .primary-container {
+    height: 60vh;
+    justify-content: flex-start;
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .primary-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .wpp-logo {
+    height: 50px;
+    width: 50px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
